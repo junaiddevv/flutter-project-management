@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
         FocusManager.instance.primaryFocus?.unfocus();
       },
       child: MaterialApp(
-        title: AppStrings.title,
+        title: 'Test commit',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
             brightness: Brightness.dark,
